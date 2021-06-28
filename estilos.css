@@ -1,0 +1,158 @@
+body{
+    background-color: white;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+header{
+    height: auto;
+    margin: 0px;
+    background-color:  #162b4e;
+    border-bottom:5px solid grey;
+}
+
+.flex-header{
+    display: flex;
+}
+
+nav{
+    margin-left: auto;
+    position: right;
+    margin-top: 100px;
+    margin-right: 80px;
+    font-size: 130%;
+}
+
+.botones{
+    margin: 50px;
+    margin-bottom: 0px;
+    margin-top: 100px;
+    color: white;
+    border-right: 2px solid grey;
+    border-left: 2px solid grey;
+    padding: 5px;
+}
+
+
+#logo{
+    width: 190px;
+    margin-left: 100px;
+    margin-bottom: -20px;
+}
+
+.flex-inicio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    justify-content: center;
+}
+
+.presentacion{
+    flex-basis: 35%;
+    margin: 0px auto;
+    font-size: 130%;
+}
+
+.flex-historia{
+    display: flex;
+    flex-direction: column;
+}
+
+.tituloLineaTiempo{
+    text-align: center;
+}
+
+.flex-lineaTiempo{
+    display: flex;
+    flex-direction: row;
+    text-align:center;
+    margin: auto;
+    width: 70%;
+}
+
+.imagenLineaTiempo{
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+    border: 3px solid rgba(62, 79, 90, 0.39);;
+    border-radius: 100px;
+}
+
+.textoLineaTiempo{
+    align-items: center;
+    margin: 0px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 130%;
+    text-align: left;
+}
+
+.flex-ubicacion{
+    display: flex;
+    justify-content: center;
+}
+
+.direccion{
+    margin: 50px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.mapa{
+    margin-top: 100px;
+    margin-left: 20px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.32); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.32);
+    border: 3px solid grey;
+}
+
+.flex-contacto{
+    display: flex;
+    color: white;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.tituloContacto{
+    margin: 0px;
+    text-align: center;
+}
+
+.info{
+    margin: 10px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.linkMail:link{
+    color: white;
+}
+
+.linkMail:hover{
+    color: blue;
+}
+
+
+#video1{
+    height: 530px;
+}
+
+.iconoContacto{
+    width:30px;
+    height: 30px;
+}
+
+footer{
+    height: auto;
+    background-color: #162b4e;
+    border-top:grey 5px solid;
+    font-size: 120%;
+    width: 100%;
+    position: relative;
+    bottom: -90px;
+}

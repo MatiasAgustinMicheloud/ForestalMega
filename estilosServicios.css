@@ -1,0 +1,127 @@
+body{
+    background-color: white;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+header{
+    height: auto;
+    margin: 0px;
+    background-color:  #162b4e;
+    border-bottom:5px solid grey;
+}
+
+.flex-header{
+    display: flex;
+}
+
+nav{
+    margin-left: auto;
+    position: right;
+    margin-top: 100px;
+    margin-right: 80px;
+    font-size: 130%;
+}
+
+.botones{
+    margin: 50px;
+    margin-bottom: 0px;
+    margin-top: 100px;
+    color: white;
+    border-right: 2px solid grey;
+    border-left: 2px solid grey;
+    padding: 5px;
+}
+
+#logo{
+    width: 190px;
+    margin-left: 100px;
+    margin-bottom: -20px;
+}
+
+.flex-contacto{
+    display: flex;
+    color: white;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.tituloContacto{
+    margin: 0px;
+    text-align: center;
+}
+
+.info{
+    margin: 10px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.linkMail:link{
+    color: white;
+}
+
+.linkMail:hover{
+    color: blue;
+}
+
+.iconoContacto{
+    width:30px;
+    height: 30px;
+}
+
+footer{
+    height: auto;
+    background-color: #162b4e;
+    border-top:grey 5px solid;
+    font-size: 120%;
+    width: 100%;
+    position: relative;
+    bottom: -90px;
+}
+
+.flex-contenedor{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tituloServicios{
+    margin-top: 50px;
+}
+
+.flex-serviciosMayor{
+    display: flex;
+    width: 950px;
+    justify-content: center;
+}
+.flex-servicios{
+    display: flex;
+    flex-direction: column;
+    width: 950px;
+    justify-content: center;
+    border:5px solid grey;
+    border-radius: 5px;
+    margin: 50px;
+}
+
+.tituloTipoServicio{
+    margin: 30px;
+    text-align: center;
+    font-size: 130%;
+}
+
+.textoServicios{
+    margin: 20px;
+    text-align: center;
+}
+
+.iconoServicios{
+    width: 250px;
+    position: relative;
+    margin: auto;
+    align-items: center;
+}

@@ -1,0 +1,120 @@
+body{
+    background-color: white;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+header{
+    height: auto;
+    margin: 0px;
+    background-color:  #162b4e;
+    border-bottom:5px solid grey;
+}
+
+.flex-header{
+    display: flex;
+}
+
+nav{
+    margin-left: auto;
+    position: right;
+    margin-top: 100px;
+    margin-right: 80px;
+    font-size: 130%;
+}
+
+.botones{
+    margin: 50px;
+    margin-bottom: 0px;
+    margin-top: 100px;
+    color: white;
+    border-right: 2px solid grey;
+    border-left: 2px solid grey;
+    padding: 5px;
+}
+
+#logo{
+    width: 190px;
+    margin-left: 100px;
+    margin-bottom: -20px;
+}
+
+.flex-contacto{
+    display: flex;
+    color: white;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.tituloContacto{
+    margin: 0px;
+    text-align: center;
+}
+
+.info{
+    margin: 10px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.linkMail:link{
+    color: white;
+}
+
+.linkMail:hover{
+    color: blue;
+}
+
+.iconoContacto{
+    width:30px;
+    height: 30px;
+}
+
+footer{
+    height: auto;
+    background-color: #162b4e;
+    border-top:grey 5px solid;
+    font-size: 120%;
+    width: 100%;
+    position: relative;
+    bottom: -90px;
+}
+
+.flex-clientes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.tituloClientes{
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.textoClientes{
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 130%;
+}
+
+.flex-clientes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.logoClientes{
+    height: 150px;
+    width: auto;
+    margin:10px;
+    margin-top: 100px;
+}
